@@ -1,0 +1,19 @@
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Book Name</th>
+      <th scope="col">Author</th>
+      <th scope="col">Publish year</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each booksDetails}}
+    <tr>
+      <td>{{bookname}}</td>
+      <td>{{author}}</td>
+      <td>{{year}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
